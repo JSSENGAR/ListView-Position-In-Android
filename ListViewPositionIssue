@@ -1,0 +1,17 @@
+ 
+ 
+ 
+1. 	Copy & Past following instruction 
+	as first instruction on yours listview click listener.
+ 
+	Parcelable ls = lstcountry.onSaveInstanceState();
+ 
+2. 	Copy & Past following instruction as last instruction 
+	on yours listview click listener. 
+ 
+	lststu.onRestoreInstanceState(ls); 
+	// 	here lststu is ListView Variable Declared As 
+	//	ListView lststu; 
+	// 	and control assigned as 
+	//  lstcountry = (ListView) findViewById(R.id.lstcountry);
+	// globally oncreate;
